@@ -1,0 +1,27 @@
+.navigation {
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigationList, .authList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navigationItem, .authItem {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 0 10px;
+}
+.activeNavigationItem, .activeAuthItem {
+    color: gold;
+}
+
+.container {
+    padding: 5px;
+}
